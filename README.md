@@ -16,5 +16,7 @@ A Simple Bookmark Manager Landing Page developed using only HTML5, CSS3 and Basi
 #### Author
 
 Name: Juma Gobe
-Portfolio Page: ![View](https://jumanjigobez.github.io/personal_portfolio/)
-Instagram Profile: ![Follow @jumanjicasilas](https://instagram.com/jumanjicasilas)
+
+Portfolio Page: [View](https://jumanjigobez.github.io/personal_portfolio/)
+
+Instagram Profile: [Follow @jumanjicasilas](https://instagram.com/jumanjicasilas)

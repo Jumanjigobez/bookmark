@@ -1,0 +1,283 @@
+<!DOCTYPE html5>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Jumanji | Bookmark landing page</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="script/script.js" defer></script>
+
+</head>
+
+<body>
+    <main>
+        <header id="header">
+            <div class="part_1">
+                <div class="logo">
+                    <img src="images/logo-bookmark.svg" alt="Bookmark Logo">
+                </div>
+
+                <div class="menu_part">
+                    <p class="menu_btn" onclick="openMenu()"><img src="images/icon-hamburger.svg" alt="Menu Button"></p>
+                    <nav id="menu">
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Login</a></li>
+                    </nav>
+                </div>
+
+                <div class="mobile_menu">
+                    <div class="part_1">
+                        <div class="logo_part">
+                            <img src="images/logo-bookmark-2.svg" alt="Bookmark Logo">
+                        </div>
+                        <div class="close_menu">
+                            <p onclick="closeMenu()"><img src="images/icon-close.svg" alt="Close Menu"></p>
+                        </div>
+                    </div>
+
+                    <div class="part_2">
+                        <nav class="mobile_nav">
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Login</a></li>
+                        </nav>
+                    </div>
+
+                    <div class="part_3">
+                        <ul>
+                            <li><img src="images/icon-facebook.svg" alt="Facebook Icon"></li>
+                            <li><img src="images/icon-twitter.svg" alt="Twitter Icon"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="part_2">
+                <div class="text_part">
+                    <h1>A Simple Bookmark Manager</h1>
+                    <p>A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
+                    <div>
+                        <button class="btn">Get it on Chrome</button>
+                        <button class="btn btn1">Get it on Firefox</button>
+                    </div>
+                </div>
+
+                <div class="bg"></div>
+                <div class="img_part">
+                    <img src="images/illustration-hero.svg" alt="Hero image">
+
+                </div>
+
+
+            </div>
+        </header>
+
+        <section id="section_1">
+            <div class="part_1">
+                <h2>Features</h2>
+                <p>Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
+            </div>
+
+            <div class="tab_part">
+                <ul>
+                    <li onclick="changeTab(this)" class="tab_1">Simple Bookmarking</li>
+                    <li onclick="changeTab(this)" class="tab_2">Speedy Searching</li>
+                    <li onclick="changeTab(this)" class="tab_3">Easy Sharing</li>
+                </ul>
+            </div>
+
+            <div class="change_part">
+                <!--Tab_1 content-->
+                <div class="box">
+                    <div class="bg bg2"></div>
+                    <div class="img_part">
+                        <img src="images/illustration-features-tab-1.svg" alt="Simple Bookmarking Image">
+                    </div>
+                    <div class="text_part">
+                        <h3>Bookmark in one click</h3>
+                        <p>Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
+                        <button class="btn">More Info</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="section_2">
+            <div class="part_1">
+                <h2>Download the extension</h2>
+                <p>We’ve got more browsers in the pipeline. Please do let us know if you’ve got a favourite you’d like us to prioritize.</p>
+            </div>
+
+            <div class="part_2">
+                <div class="box">
+                    <div class="logo_part">
+                        <img src="images/logo-chrome.svg" alt="Chrome browser logo">
+                    </div>
+
+                    <div class="text_part">
+                        <h3>Add to Chrome</h3>
+                        <p>Minimum version 62</p>
+                    </div>
+
+                    <div class="dot_part">
+                        <img src="images/bg-dots.svg" alt="dots">
+                    </div>
+
+                    <div class="btn_part">
+                        <button class="btn">Add & Install Extension</button>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="logo_part">
+                        <img src="images/logo-firefox.svg" alt="Firefox browser logo">
+                    </div>
+
+                    <div class="text_part">
+                        <h3>Add to Firefox</h3>
+                        <p>Minimum version 55</p>
+                    </div>
+
+                    <div class="dot_part">
+                        <img src="images/bg-dots.svg" alt="dots">
+                    </div>
+
+                    <div class="btn_part">
+                        <button class="btn">Add & Install Extension</button>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="logo_part">
+                        <img src="images/logo-opera.svg" alt="Opera browser logo">
+                    </div>
+
+                    <div class="text_part">
+                        <h3>Add to Opera</h3>
+                        <p>Minimum version 46</p>
+                    </div>
+
+                    <div class="dot_part">
+                        <img src="images/bg-dots.svg" alt="dots">
+                    </div>
+
+                    <div class="btn_part">
+                        <button class="btn">Add & Install Extension</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="section_3">
+            <div class="part_1">
+                <h2>Frequently Asked Questions</h2>
+                <p>Here are some of our FAQs. If you have any other questions you’d like answered please feel free to email us.</p>
+            </div>
+
+            <div class="part_2">
+                <div class="box" onclick="viewAnswer(this)">
+                    <div class="name_part">
+                        <h3>What is Bookmark?</h3>
+                        <img src="images/icon-arrow.svg" alt="drop-down arrow">
+                    </div>
+
+                    <div class="answer_part" style="display:none">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.</p>
+                    </div>
+                </div>
+
+                <div class="box" onclick="viewAnswer(this)">
+                    <div class="name_part">
+                        <h3>How can I request a new browser?</h3>
+                        <img src="images/icon-arrow.svg" alt="drop-down arrow">
+                    </div>
+
+                    <div class="answer_part" style="display:none">
+                        <p>Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdie tVivamus
+                            luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</p>
+                    </div>
+                </div>
+
+                <div class="box" onclick="viewAnswer(this)">
+                    <div class="name_part">
+                        <h3>Is there a mobile app?</h3>
+                        <img src="images/icon-arrow.svg" alt="drop-down arrow">
+                    </div>
+
+                    <div class="answer_part" style="display:none">
+                        <p>Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed sollicitudin ex et ultricies bibendum.</p>
+                    </div>
+                </div>
+
+                <div class="box" onclick="viewAnswer(this)">
+                    <div class="name_part">
+                        <h3>What about other Chromium browsers?</h3>
+                        <img src="images/icon-arrow.svg" alt="drop-down arrow">
+                    </div>
+
+                    <div class="answer_part" style="display:none">
+                        <p> Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam vitae neque eget nisl gravida pellentesque non ut velit.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="btn_part">
+                <button class="btn">More Info</button>
+            </div>
+        </section>
+
+        <section id="section_4">
+            <div class="part_1">
+                <p>35,000+ already joined</p>
+            </div>
+            <div class="part_2">
+                <h2>Stay up-to-date with what we’re doing</h2>
+            </div>
+            <div class="part_3">
+                <input type="text" name="email" id="email" placeholder="Enter your email address">
+                <img src="images/icon-error.svg" alt="error icon" class="error_icon">
+                <span class="error"></span>
+                <button class="btn btn3" onclick="validate()">Contact Us</button>
+            </div>
+        </section>
+
+        <footer id="footer">
+            <div class="part_1">
+                <div class="f1">
+                    <div class="logo_part">
+                        <img src="images/logo-bookmark-2.svg" alt="Bookmark Logo">
+                    </div>
+                    <div class="menu_part">
+                        <ul>
+                            <li>Features</li>
+                            <li>Pricing</li>
+                            <li>Contact</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="f2">
+                    <ul>
+                        <li><img src="images/icon-facebook.svg" alt="Facebook Icon"></li>
+                        <li><img src="images/icon-twitter.svg" alt="Twitter Icon"></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="part_2">
+                <small>Coded by <a href="https://jumanjigobez.github.io/personal_portfolio/" target="_blank">Jumanji</a></small>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
